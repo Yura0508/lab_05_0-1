@@ -7,6 +7,7 @@ int main()
 {
 	double s, t;
 	cout << "s = "; cin >> s;
+
 	cout << "t = "; cin >> t;
 	double c = (f(1, t * t, s) + f(t, s * s, 1)) / (1+ pow(f(1, t * s, 1), 2));
 	cout << "c = " << c << endl;
